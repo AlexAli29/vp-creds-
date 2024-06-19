@@ -1,0 +1,2393 @@
+-- Logs begin at Wed 2024-06-12 09:26:41 UTC, end at Wed 2024-06-19 16:49:48 UTC. --
+Jun 19 16:48:10 seo-landing systemd[1622575]: run-docker-netns-b3299be8f2b5.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:10 seo-landing systemd[1]: run-docker-netns-b3299be8f2b5.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-b3299be8f2b5.mount has successfully entered the 'dead' state.
+Jun 19 16:48:10 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:10 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:48:10 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71134 seen even after reload
+Jun 19 16:48:10 seo-landing networkd-dispatcher[1689900]: Interface "veth5534bca" not found.
+Jun 19 16:48:10 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1689900, but reception only permitted for main PID 588[0m
+Jun 19 16:48:10 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth5534bca" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth5534bca']' returned non-zero exit status 1.
+Jun 19 16:48:10 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71134 seen, reloading interface list
+Jun 19 16:48:10 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71134 seen even after reload
+Jun 19 16:48:10 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71136 seen, reloading interface list
+Jun 19 16:48:10 seo-landing systemd-udevd[1689855]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:10 seo-landing systemd-udevd[1689855]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethd5c273d: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:10 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered blocking state
+Jun 19 16:48:10 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered disabled state
+Jun 19 16:48:10 seo-landing kernel: device vethd5c273d entered promiscuous mode
+Jun 19 16:48:10 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered blocking state
+Jun 19 16:48:10 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered forwarding state
+Jun 19 16:48:10 seo-landing systemd-networkd[460]: vethd5c273d: Link UP
+Jun 19 16:48:10 seo-landing systemd-udevd[1689882]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:10 seo-landing systemd-udevd[1689882]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth1fd6b5a: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:10 seo-landing dockerd[689]: time="2024-06-19T16:48:10.897313560Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:48:10 seo-landing dockerd[689]: time="2024-06-19T16:48:10.897423356Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered blocking state
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered disabled state
+Jun 19 16:48:11 seo-landing systemd-udevd[1689917]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:11 seo-landing kernel: device veth325e144 entered promiscuous mode
+Jun 19 16:48:11 seo-landing systemd-udevd[1689917]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:11 seo-landing systemd-udevd[1689917]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth325e144: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:11 seo-landing systemd-udevd[1689922]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:11 seo-landing systemd-networkd[460]: veth325e144: Link UP
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered blocking state
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered forwarding state
+Jun 19 16:48:11 seo-landing systemd-udevd[1689922]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:11 seo-landing systemd-udevd[1689922]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth98e0721: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:11 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71138 seen, reloading interface list
+Jun 19 16:48:11 seo-landing containerd[608]: time="2024-06-19T16:48:11.133140748Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:48:11 seo-landing containerd[608]: time="2024-06-19T16:48:11.133356265Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:48:11 seo-landing containerd[608]: time="2024-06-19T16:48:11.133425085Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:48:11 seo-landing containerd[608]: time="2024-06-19T16:48:11.133819784Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1689948 runtime=io.containerd.runc.v2
+Jun 19 16:48:11 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.DsSHSJ.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:11 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.DsSHSJ.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.DsSHSJ.mount has successfully entered the 'dead' state.
+Jun 19 16:48:11 seo-landing kernel: eth0: renamed from veth1fd6b5a
+Jun 19 16:48:11 seo-landing systemd-networkd[460]: vethd5c273d: Gained carrier
+Jun 19 16:48:11 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethd5c273d: link becomes ready
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered disabled state
+Jun 19 16:48:11 seo-landing kernel: eth1: renamed from veth98e0721
+Jun 19 16:48:11 seo-landing systemd-networkd[460]: veth325e144: Gained carrier
+Jun 19 16:48:11 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth325e144: link becomes ready
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered blocking state
+Jun 19 16:48:11 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered forwarding state
+Jun 19 16:48:12 seo-landing systemd-networkd[460]: veth325e144: Gained IPv6LL
+Jun 19 16:48:12 seo-landing systemd-networkd[460]: vethd5c273d: Gained IPv6LL
+Jun 19 16:48:13 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.lurM96.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.lurM96.mount has successfully entered the 'dead' state.
+Jun 19 16:48:13 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.lurM96.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:14 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 17.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:14 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37184 and the job result is done.
+Jun 19 16:48:14 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37184.
+Jun 19 16:48:14 seo-landing ovpn-server[1690043]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:14 seo-landing ovpn-server[1690043]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:14 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:14 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:14 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37184 and the job result is failed.
+Jun 19 16:48:15 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.V66Kze.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:15 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.V66Kze.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.V66Kze.mount has successfully entered the 'dead' state.
+Jun 19 16:48:16 seo-landing sudo[1690084]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/systemctl restart openvpn@server[0m
+Jun 19 16:48:16 seo-landing sudo[1690084]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:48:16 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37269 and the job result is done.
+Jun 19 16:48:16 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37269.
+Jun 19 16:48:16 seo-landing ovpn-server[1690087]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:16 seo-landing ovpn-server[1690087]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:16 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:16 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:16 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37269 and the job result is failed.
+Jun 19 16:48:16 seo-landing sudo[1690084]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:48:17 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-b53d9166763b5bd86301d52e17e73db1ac49355416f4ed515ff68014e13ac91e-runc.pBXSHq.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-b53d9166763b5bd86301d52e17e73db1ac49355416f4ed515ff68014e13ac91e-runc.pBXSHq.mount has successfully entered the 'dead' state.
+Jun 19 16:48:17 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-b53d9166763b5bd86301d52e17e73db1ac49355416f4ed515ff68014e13ac91e-runc.pBXSHq.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:20 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.1zJQOL.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.1zJQOL.mount has successfully entered the 'dead' state.
+Jun 19 16:48:20 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.1zJQOL.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:20 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.nkE8sW.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.nkE8sW.mount has successfully entered the 'dead' state.
+Jun 19 16:48:20 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.nkE8sW.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:21 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-26fb6ea1ea2727c0d744048c94cc83135e7136289431b5ff0c5e638d4e428401-runc.6WdRGf.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:21 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-26fb6ea1ea2727c0d744048c94cc83135e7136289431b5ff0c5e638d4e428401-runc.6WdRGf.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-26fb6ea1ea2727c0d744048c94cc83135e7136289431b5ff0c5e638d4e428401-runc.6WdRGf.mount has successfully entered the 'dead' state.
+Jun 19 16:48:21 seo-landing sudo[1690169]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/nano /etc/openvpn/server.conf[0m
+Jun 19 16:48:21 seo-landing sudo[1690169]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:48:21 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-4ab4579bfae18e6a9d4b26a32d1d81e133d1d1bbfb148704f11e724d0c68a75a-runc.Se9mQI.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:21 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-4ab4579bfae18e6a9d4b26a32d1d81e133d1d1bbfb148704f11e724d0c68a75a-runc.Se9mQI.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-4ab4579bfae18e6a9d4b26a32d1d81e133d1d1bbfb148704f11e724d0c68a75a-runc.Se9mQI.mount has successfully entered the 'dead' state.
+Jun 19 16:48:21 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 18.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:22 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37354 and the job result is done.
+Jun 19 16:48:22 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37354.
+Jun 19 16:48:22 seo-landing ovpn-server[1690189]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:22 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:22 seo-landing ovpn-server[1690189]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:22 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:22 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37354 and the job result is failed.
+Jun 19 16:48:22 seo-landing dockerd[689]: time="2024-06-19T16:48:22.283913072Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:48:22 seo-landing containerd[608]: time="2024-06-19T16:48:22.287243201Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:48:22 seo-landing containerd[608]: time="2024-06-19T16:48:22.288051549Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:48:22 seo-landing containerd[608]: time="2024-06-19T16:48:22.288378923Z" level=info msg="cleaning up dead shim"
+Jun 19 16:48:22 seo-landing containerd[608]: time="2024-06-19T16:48:22.308243249Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:48:22Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1690201 runtime=io.containerd.runc.v2\n"
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: vethd5c273d: Lost carrier
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered disabled state
+Jun 19 16:48:22 seo-landing kernel: veth1fd6b5a: renamed from eth0
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71136 seen, reloading interface list
+Jun 19 16:48:22 seo-landing systemd-udevd[1690221]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690221]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690221]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: vethd5c273d: Link DOWN
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered disabled state
+Jun 19 16:48:22 seo-landing kernel: device vethd5c273d left promiscuous mode
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(vethd5c273d) entered disabled state
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71137' we don't know about, ignoring.[0m
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71137' we don't know about, ignoring.[0m
+Jun 19 16:48:22 seo-landing networkd-dispatcher[1690245]: Interface "vethd5c273d" not found.
+Jun 19 16:48:22 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690245, but reception only permitted for main PID 588[0m
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "vethd5c273d" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethd5c273d']' returned non-zero exit status 1.
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: veth325e144: Lost carrier
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered disabled state
+Jun 19 16:48:22 seo-landing kernel: veth98e0721: renamed from eth1
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71138 seen, reloading interface list
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: veth325e144: Link DOWN
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered disabled state
+Jun 19 16:48:22 seo-landing kernel: device veth325e144 left promiscuous mode
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth325e144) entered disabled state
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71139' we don't know about, ignoring.[0m
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71139' we don't know about, ignoring.[0m
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: [0;1;31m[0;1;39m[0;1;31mveth98e0721: Failed to get link config: No such device[0m
+Jun 19 16:48:22 seo-landing systemd[1622575]: run-docker-netns-a67971531873.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:22 seo-landing systemd[1]: run-docker-netns-a67971531873.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-a67971531873.mount has successfully entered the 'dead' state.
+Jun 19 16:48:22 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:48:22 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:22 seo-landing networkd-dispatcher[1690265]: Interface "veth98e0721" not found.
+Jun 19 16:48:22 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690265, but reception only permitted for main PID 588[0m
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth98e0721" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth98e0721']' returned non-zero exit status 1.
+Jun 19 16:48:22 seo-landing networkd-dispatcher[1690268]: Interface "veth325e144" not found.
+Jun 19 16:48:22 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690268, but reception only permitted for main PID 588[0m
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth325e144" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth325e144']' returned non-zero exit status 1.
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered blocking state
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered disabled state
+Jun 19 16:48:22 seo-landing kernel: device veth8875daf entered promiscuous mode
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered blocking state
+Jun 19 16:48:22 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered forwarding state
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: veth8875daf: Link UP
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71140 seen, reloading interface list
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethec6958b: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:22 seo-landing systemd-udevd[1690261]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing dockerd[689]: time="2024-06-19T16:48:22.791360355Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:48:22 seo-landing dockerd[689]: time="2024-06-19T16:48:22.791841588Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:48:22 seo-landing systemd-udevd[1690261]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690261]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth8875daf: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered blocking state
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered disabled state
+Jun 19 16:48:22 seo-landing kernel: device veth0edd87b entered promiscuous mode
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered blocking state
+Jun 19 16:48:22 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered forwarding state
+Jun 19 16:48:22 seo-landing systemd-networkd[460]: veth0edd87b: Link UP
+Jun 19 16:48:22 seo-landing systemd-udevd[1690261]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690261]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth0edd87b: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:22 seo-landing systemd-udevd[1690247]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth7b4b2cf: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:22 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71142 seen, reloading interface list
+Jun 19 16:48:23 seo-landing containerd[608]: time="2024-06-19T16:48:23.021405333Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:48:23 seo-landing containerd[608]: time="2024-06-19T16:48:23.021494487Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:48:23 seo-landing containerd[608]: time="2024-06-19T16:48:23.021514224Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:48:23 seo-landing containerd[608]: time="2024-06-19T16:48:23.023069493Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1690322 runtime=io.containerd.runc.v2
+Jun 19 16:48:23 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.udjmRN.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.udjmRN.mount has successfully entered the 'dead' state.
+Jun 19 16:48:23 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.udjmRN.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:23 seo-landing kernel: eth0: renamed from vethec6958b
+Jun 19 16:48:23 seo-landing systemd-networkd[460]: veth8875daf: Gained carrier
+Jun 19 16:48:23 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth8875daf: link becomes ready
+Jun 19 16:48:23 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered disabled state
+Jun 19 16:48:23 seo-landing kernel: eth1: renamed from veth7b4b2cf
+Jun 19 16:48:23 seo-landing systemd-networkd[460]: veth0edd87b: Gained carrier
+Jun 19 16:48:23 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth0edd87b: link becomes ready
+Jun 19 16:48:23 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered blocking state
+Jun 19 16:48:23 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered forwarding state
+Jun 19 16:48:23 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.O9iX7J.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:23 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.O9iX7J.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.O9iX7J.mount has successfully entered the 'dead' state.
+Jun 19 16:48:24 seo-landing systemd-networkd[460]: veth0edd87b: Gained IPv6LL
+Jun 19 16:48:24 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.D1jkPs.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:24 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.D1jkPs.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.D1jkPs.mount has successfully entered the 'dead' state.
+Jun 19 16:48:25 seo-landing systemd-networkd[460]: veth8875daf: Gained IPv6LL
+Jun 19 16:48:25 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.y8710Q.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.y8710Q.mount has successfully entered the 'dead' state.
+Jun 19 16:48:25 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.y8710Q.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:27 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 19.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:27 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37439 and the job result is done.
+Jun 19 16:48:27 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37439.
+Jun 19 16:48:27 seo-landing ovpn-server[1690465]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:27 seo-landing ovpn-server[1690465]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:27 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:27 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:27 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37439 and the job result is failed.
+Jun 19 16:48:28 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.9mYTY2.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.9mYTY2.mount has successfully entered the 'dead' state.
+Jun 19 16:48:28 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.9mYTY2.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:32 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 20.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:32 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37524 and the job result is done.
+Jun 19 16:48:32 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37524.
+Jun 19 16:48:32 seo-landing ovpn-server[1690494]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:32 seo-landing ovpn-server[1690494]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:32 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:32 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:32 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37524 and the job result is failed.
+Jun 19 16:48:33 seo-landing sudo[1690169]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:48:34 seo-landing dockerd[689]: time="2024-06-19T16:48:34.238512698Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:48:34 seo-landing containerd[608]: time="2024-06-19T16:48:34.241516110Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:48:34 seo-landing containerd[608]: time="2024-06-19T16:48:34.241609570Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:48:34 seo-landing containerd[608]: time="2024-06-19T16:48:34.241627634Z" level=info msg="cleaning up dead shim"
+Jun 19 16:48:34 seo-landing containerd[608]: time="2024-06-19T16:48:34.265446196Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:48:34Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1690504 runtime=io.containerd.runc.v2\n"
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered disabled state
+Jun 19 16:48:34 seo-landing kernel: vethec6958b: renamed from eth0
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: veth8875daf: Lost carrier
+Jun 19 16:48:34 seo-landing systemd-udevd[1690524]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71140 seen, reloading interface list
+Jun 19 16:48:34 seo-landing systemd-udevd[1690524]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690524]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: veth8875daf: Link DOWN
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered disabled state
+Jun 19 16:48:34 seo-landing kernel: device veth8875daf left promiscuous mode
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth8875daf) entered disabled state
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71141' we don't know about, ignoring.[0m
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71141' we don't know about, ignoring.[0m
+Jun 19 16:48:34 seo-landing networkd-dispatcher[1690549]: Interface "veth8875daf" not found.
+Jun 19 16:48:34 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690549, but reception only permitted for main PID 588[0m
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth8875daf" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth8875daf']' returned non-zero exit status 1.
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: veth0edd87b: Lost carrier
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered disabled state
+Jun 19 16:48:34 seo-landing kernel: veth7b4b2cf: renamed from eth1
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71142 seen, reloading interface list
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: veth0edd87b: Link DOWN
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered disabled state
+Jun 19 16:48:34 seo-landing kernel: device veth0edd87b left promiscuous mode
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(veth0edd87b) entered disabled state
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71143' we don't know about, ignoring.[0m
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71143' we don't know about, ignoring.[0m
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: [0;1;31m[0;1;39m[0;1;31mveth7b4b2cf: Failed to get link config: No such device[0m
+Jun 19 16:48:34 seo-landing networkd-dispatcher[1690566]: Interface "veth7b4b2cf" not found.
+Jun 19 16:48:34 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690566, but reception only permitted for main PID 588[0m
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth7b4b2cf" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth7b4b2cf']' returned non-zero exit status 1.
+Jun 19 16:48:34 seo-landing systemd[1622575]: run-docker-netns-82bba7e1bf96.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:34 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:34 seo-landing systemd[1]: run-docker-netns-82bba7e1bf96.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-82bba7e1bf96.mount has successfully entered the 'dead' state.
+Jun 19 16:48:34 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:48:34 seo-landing networkd-dispatcher[1690572]: Interface "veth0edd87b" not found.
+Jun 19 16:48:34 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690572, but reception only permitted for main PID 588[0m
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth0edd87b" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth0edd87b']' returned non-zero exit status 1.
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71144 seen, reloading interface list
+Jun 19 16:48:34 seo-landing systemd-udevd[1690567]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethd006c96: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:34 seo-landing systemd-udevd[1690567]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690567]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth1dd5b26: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered blocking state
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered disabled state
+Jun 19 16:48:34 seo-landing kernel: device veth1dd5b26 entered promiscuous mode
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: veth1dd5b26: Link UP
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered blocking state
+Jun 19 16:48:34 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered forwarding state
+Jun 19 16:48:34 seo-landing dockerd[689]: time="2024-06-19T16:48:34.810505944Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:48:34 seo-landing dockerd[689]: time="2024-06-19T16:48:34.810555912Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:48:34 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71146 seen, reloading interface list
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690548]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth193a82d: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:34 seo-landing systemd-udevd[1690567]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:34 seo-landing systemd-udevd[1690567]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethfb1dbfa: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered blocking state
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered disabled state
+Jun 19 16:48:34 seo-landing kernel: device vethfb1dbfa entered promiscuous mode
+Jun 19 16:48:34 seo-landing systemd-networkd[460]: vethfb1dbfa: Link UP
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered blocking state
+Jun 19 16:48:34 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered forwarding state
+Jun 19 16:48:35 seo-landing containerd[608]: time="2024-06-19T16:48:35.059434152Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:48:35 seo-landing containerd[608]: time="2024-06-19T16:48:35.067589237Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:48:35 seo-landing containerd[608]: time="2024-06-19T16:48:35.067985234Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:48:35 seo-landing containerd[608]: time="2024-06-19T16:48:35.070416537Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1690624 runtime=io.containerd.runc.v2
+Jun 19 16:48:35 seo-landing kernel: eth0: renamed from vethd006c96
+Jun 19 16:48:35 seo-landing systemd-networkd[460]: veth1dd5b26: Gained carrier
+Jun 19 16:48:35 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth1dd5b26: link becomes ready
+Jun 19 16:48:35 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered disabled state
+Jun 19 16:48:35 seo-landing kernel: eth1: renamed from veth193a82d
+Jun 19 16:48:35 seo-landing systemd-networkd[460]: vethfb1dbfa: Gained carrier
+Jun 19 16:48:35 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethfb1dbfa: link becomes ready
+Jun 19 16:48:35 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered blocking state
+Jun 19 16:48:35 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered forwarding state
+Jun 19 16:48:35 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.7gQiQB.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:35 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.7gQiQB.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.7gQiQB.mount has successfully entered the 'dead' state.
+Jun 19 16:48:35 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.QAlqPj.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:35 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.QAlqPj.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.QAlqPj.mount has successfully entered the 'dead' state.
+Jun 19 16:48:35 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.CWdQvT.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:35 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.CWdQvT.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.CWdQvT.mount has successfully entered the 'dead' state.
+Jun 19 16:48:36 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.O6ikma.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:36 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.O6ikma.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.O6ikma.mount has successfully entered the 'dead' state.
+Jun 19 16:48:37 seo-landing systemd-networkd[460]: veth1dd5b26: Gained IPv6LL
+Jun 19 16:48:37 seo-landing systemd-networkd[460]: vethfb1dbfa: Gained IPv6LL
+Jun 19 16:48:37 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 21.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:37 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37609 and the job result is done.
+Jun 19 16:48:37 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37609.
+Jun 19 16:48:37 seo-landing ovpn-server[1690791]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:37 seo-landing ovpn-server[1690791]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:37 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:37 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:37 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37609 and the job result is failed.
+Jun 19 16:48:37 seo-landing sudo[1690794]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/ls -l /etc/openvpn/[0m
+Jun 19 16:48:37 seo-landing sudo[1690794]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:48:37 seo-landing sudo[1690794]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:48:42 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 22.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:42 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37694 and the job result is done.
+Jun 19 16:48:42 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37694.
+Jun 19 16:48:43 seo-landing ovpn-server[1690800]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:43 seo-landing ovpn-server[1690800]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:43 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:43 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:43 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37694 and the job result is failed.
+Jun 19 16:48:43 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.mZr9xo.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:43 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.mZr9xo.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.mZr9xo.mount has successfully entered the 'dead' state.
+Jun 19 16:48:46 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.gOoNyb.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:46 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.gOoNyb.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.gOoNyb.mount has successfully entered the 'dead' state.
+Jun 19 16:48:46 seo-landing sudo[1690850]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/chmod 600 /etc/openvpn/server.key[0m
+Jun 19 16:48:46 seo-landing sudo[1690850]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:48:46 seo-landing sudo[1690850]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:48:46 seo-landing dockerd[689]: time="2024-06-19T16:48:46.747524649Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:48:46 seo-landing containerd[608]: time="2024-06-19T16:48:46.750658672Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:48:46 seo-landing containerd[608]: time="2024-06-19T16:48:46.751608058Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:48:46 seo-landing containerd[608]: time="2024-06-19T16:48:46.752010566Z" level=info msg="cleaning up dead shim"
+Jun 19 16:48:46 seo-landing containerd[608]: time="2024-06-19T16:48:46.781437623Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:48:46Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1690865 runtime=io.containerd.runc.v2\n"
+Jun 19 16:48:46 seo-landing systemd-networkd[460]: veth1dd5b26: Lost carrier
+Jun 19 16:48:46 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered disabled state
+Jun 19 16:48:46 seo-landing kernel: vethd006c96: renamed from eth0
+Jun 19 16:48:46 seo-landing systemd-udevd[1690886]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:46 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71144 seen, reloading interface list
+Jun 19 16:48:46 seo-landing systemd-udevd[1690886]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:46 seo-landing systemd-udevd[1690886]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:46 seo-landing systemd-networkd[460]: veth1dd5b26: Link DOWN
+Jun 19 16:48:47 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered disabled state
+Jun 19 16:48:47 seo-landing kernel: device veth1dd5b26 left promiscuous mode
+Jun 19 16:48:47 seo-landing kernel: br-d028c8fe559d: port 3(veth1dd5b26) entered disabled state
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71145' we don't know about, ignoring.[0m
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71145' we don't know about, ignoring.[0m
+Jun 19 16:48:47 seo-landing networkd-dispatcher[1690917]: Interface "veth1dd5b26" not found.
+Jun 19 16:48:47 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690917, but reception only permitted for main PID 588[0m
+Jun 19 16:48:47 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth1dd5b26" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth1dd5b26']' returned non-zero exit status 1.
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: vethfb1dbfa: Lost carrier
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered disabled state
+Jun 19 16:48:47 seo-landing kernel: veth193a82d: renamed from eth1
+Jun 19 16:48:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71146 seen, reloading interface list
+Jun 19 16:48:47 seo-landing systemd-udevd[1690886]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered disabled state
+Jun 19 16:48:47 seo-landing kernel: device vethfb1dbfa left promiscuous mode
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethfb1dbfa) entered disabled state
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: vethfb1dbfa: Link DOWN
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71147' we don't know about, ignoring.[0m
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71147' we don't know about, ignoring.[0m
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth193a82d: Failed to wait for the interface to be initialized: No such device[0m
+Jun 19 16:48:47 seo-landing systemd-udevd[1690886]: [0;1;31m[0;1;39m[0;1;31mveth193a82d: Failed to get link config: No such device[0m
+Jun 19 16:48:47 seo-landing systemd[1]: run-docker-netns-5a1d7e2bdf3b.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-5a1d7e2bdf3b.mount has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing systemd[1622575]: run-docker-netns-5a1d7e2bdf3b.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing networkd-dispatcher[1690934]: Interface "veth193a82d" not found.
+Jun 19 16:48:47 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690934, but reception only permitted for main PID 588[0m
+Jun 19 16:48:47 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth193a82d" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth193a82d']' returned non-zero exit status 1.
+Jun 19 16:48:47 seo-landing networkd-dispatcher[1690939]: Interface "vethfb1dbfa" not found.
+Jun 19 16:48:47 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1690939, but reception only permitted for main PID 588[0m
+Jun 19 16:48:47 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "vethfb1dbfa" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethfb1dbfa']' returned non-zero exit status 1.
+Jun 19 16:48:47 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered blocking state
+Jun 19 16:48:47 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered disabled state
+Jun 19 16:48:47 seo-landing kernel: device veth7d38741 entered promiscuous mode
+Jun 19 16:48:47 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered blocking state
+Jun 19 16:48:47 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered forwarding state
+Jun 19 16:48:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71148 seen, reloading interface list
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: veth7d38741: Link UP
+Jun 19 16:48:47 seo-landing systemd-udevd[1690886]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:47 seo-landing systemd-udevd[1690932]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:47 seo-landing systemd-udevd[1690886]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth7d38741: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:47 seo-landing systemd-udevd[1690932]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:47 seo-landing systemd-udevd[1690932]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth9435aed: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:47 seo-landing dockerd[689]: time="2024-06-19T16:48:47.321017822Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:48:47 seo-landing dockerd[689]: time="2024-06-19T16:48:47.321085224Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:48:47 seo-landing systemd-udevd[1690932]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:47 seo-landing systemd-udevd[1690932]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethd21d700: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:47 seo-landing systemd-udevd[1690954]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:47 seo-landing systemd-udevd[1690954]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:47 seo-landing systemd-udevd[1690954]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth8c2e266: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: vethd21d700: Link UP
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered blocking state
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered disabled state
+Jun 19 16:48:47 seo-landing kernel: device vethd21d700 entered promiscuous mode
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered blocking state
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered forwarding state
+Jun 19 16:48:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71150 seen, reloading interface list
+Jun 19 16:48:47 seo-landing containerd[608]: time="2024-06-19T16:48:47.534955634Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:48:47 seo-landing containerd[608]: time="2024-06-19T16:48:47.535576237Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:48:47 seo-landing containerd[608]: time="2024-06-19T16:48:47.535892457Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:48:47 seo-landing containerd[608]: time="2024-06-19T16:48:47.537306555Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1690990 runtime=io.containerd.runc.v2
+Jun 19 16:48:47 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.XvkZx8.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.XvkZx8.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.XvkZx8.mount has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing kernel: eth0: renamed from veth9435aed
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: veth7d38741: Gained carrier
+Jun 19 16:48:47 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth7d38741: link becomes ready
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered disabled state
+Jun 19 16:48:47 seo-landing kernel: eth1: renamed from veth8c2e266
+Jun 19 16:48:47 seo-landing systemd-networkd[460]: vethd21d700: Gained carrier
+Jun 19 16:48:47 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethd21d700: link becomes ready
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered blocking state
+Jun 19 16:48:47 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered forwarding state
+Jun 19 16:48:47 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-b53d9166763b5bd86301d52e17e73db1ac49355416f4ed515ff68014e13ac91e-runc.gHIczr.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:47 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-b53d9166763b5bd86301d52e17e73db1ac49355416f4ed515ff68014e13ac91e-runc.gHIczr.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-b53d9166763b5bd86301d52e17e73db1ac49355416f4ed515ff68014e13ac91e-runc.gHIczr.mount has successfully entered the 'dead' state.
+Jun 19 16:48:48 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 23.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:48 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37779 and the job result is done.
+Jun 19 16:48:48 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37779.
+Jun 19 16:48:48 seo-landing ovpn-server[1691072]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:48 seo-landing ovpn-server[1691072]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:48 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:48 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:48 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37779 and the job result is failed.
+Jun 19 16:48:49 seo-landing sudo[1691081]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/systemctl restart openvpn@server[0m
+Jun 19 16:48:49 seo-landing sudo[1691081]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:48:49 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37864 and the job result is done.
+Jun 19 16:48:49 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37864.
+Jun 19 16:48:49 seo-landing ovpn-server[1691084]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:49 seo-landing ovpn-server[1691084]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:49 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:49 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:49 seo-landing sudo[1691081]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:48:49 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37864 and the job result is failed.
+Jun 19 16:48:49 seo-landing systemd-networkd[460]: veth7d38741: Gained IPv6LL
+Jun 19 16:48:49 seo-landing systemd-networkd[460]: vethd21d700: Gained IPv6LL
+Jun 19 16:48:53 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.iOBFMV.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:53 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.iOBFMV.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.iOBFMV.mount has successfully entered the 'dead' state.
+Jun 19 16:48:54 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 24.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:54 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 37949 and the job result is done.
+Jun 19 16:48:54 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 37949.
+Jun 19 16:48:54 seo-landing ovpn-server[1691185]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:54 seo-landing ovpn-server[1691185]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:54 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:54 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:54 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 37949 and the job result is failed.
+Jun 19 16:48:54 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.KsDs5r.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.KsDs5r.mount has successfully entered the 'dead' state.
+Jun 19 16:48:54 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.KsDs5r.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:57 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.akes4V.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.akes4V.mount has successfully entered the 'dead' state.
+Jun 19 16:48:57 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.akes4V.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:58 seo-landing dockerd[689]: time="2024-06-19T16:48:58.739251243Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:48:58 seo-landing containerd[608]: time="2024-06-19T16:48:58.742054230Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:48:58 seo-landing containerd[608]: time="2024-06-19T16:48:58.742164247Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:48:58 seo-landing containerd[608]: time="2024-06-19T16:48:58.742181826Z" level=info msg="cleaning up dead shim"
+Jun 19 16:48:58 seo-landing containerd[608]: time="2024-06-19T16:48:58.766134527Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:48:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1691253 runtime=io.containerd.runc.v2\n"
+Jun 19 16:48:58 seo-landing systemd-networkd[460]: veth7d38741: Lost carrier
+Jun 19 16:48:58 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered disabled state
+Jun 19 16:48:58 seo-landing kernel: veth9435aed: renamed from eth0
+Jun 19 16:48:58 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71148 seen, reloading interface list
+Jun 19 16:48:58 seo-landing systemd-udevd[1691273]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:58 seo-landing systemd-udevd[1691273]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:58 seo-landing systemd-udevd[1691273]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:58 seo-landing systemd-networkd[460]: veth7d38741: Link DOWN
+Jun 19 16:48:58 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered disabled state
+Jun 19 16:48:58 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.U0cf8O.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:58 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.U0cf8O.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.U0cf8O.mount has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing kernel: device veth7d38741 left promiscuous mode
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth7d38741) entered disabled state
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71149' we don't know about, ignoring.[0m
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71149' we don't know about, ignoring.[0m
+Jun 19 16:48:59 seo-landing networkd-dispatcher[1691299]: Interface "veth7d38741" not found.
+Jun 19 16:48:59 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1691299, but reception only permitted for main PID 588[0m
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth7d38741" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth7d38741']' returned non-zero exit status 1.
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: vethd21d700: Lost carrier
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered disabled state
+Jun 19 16:48:59 seo-landing kernel: veth8c2e266: renamed from eth1
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71150 seen, reloading interface list
+Jun 19 16:48:59 seo-landing systemd-udevd[1691273]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: vethd21d700: Link DOWN
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered disabled state
+Jun 19 16:48:59 seo-landing kernel: device vethd21d700 left promiscuous mode
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(vethd21d700) entered disabled state
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71151' we don't know about, ignoring.[0m
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71151' we don't know about, ignoring.[0m
+Jun 19 16:48:59 seo-landing systemd-udevd[1691273]: [0;1;31m[0;1;39m[0;1;31mveth8c2e266: Failed to get link config: No such device[0m
+Jun 19 16:48:59 seo-landing systemd[1622575]: run-docker-netns-3229f57e1c92.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing systemd[1]: run-docker-netns-3229f57e1c92.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-3229f57e1c92.mount has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71150 seen even after reload
+Jun 19 16:48:59 seo-landing networkd-dispatcher[1691341]: Interface "vethd21d700" not found.
+Jun 19 16:48:59 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1691341, but reception only permitted for main PID 588[0m
+Jun 19 16:48:59 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 25.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:48:59 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38034 and the job result is done.
+Jun 19 16:48:59 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38034.
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "vethd21d700" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethd21d700']' returned non-zero exit status 1.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691273]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691273]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth1524760: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered blocking state
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered disabled state
+Jun 19 16:48:59 seo-landing kernel: device veth1524760 entered promiscuous mode
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered blocking state
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered forwarding state
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: veth1524760: Link UP
+Jun 19 16:48:59 seo-landing systemd-udevd[1691335]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691335]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691335]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth9d49660: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71150 seen, reloading interface list
+Jun 19 16:48:59 seo-landing dockerd[689]: time="2024-06-19T16:48:59.379161236Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:48:59 seo-landing dockerd[689]: time="2024-06-19T16:48:59.379211778Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71150 seen even after reload
+Jun 19 16:48:59 seo-landing ovpn-server[1691342]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:48:59 seo-landing ovpn-server[1691342]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:48:59 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:48:59 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:48:59 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38034 and the job result is failed.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691355]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691355]: Using default interface naming scheme 'v245'.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691355]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth90c2ab8: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:59 seo-landing systemd-udevd[1691335]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:48:59 seo-landing systemd-udevd[1691335]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth615731f: Could not generate persistent MAC: No data available[0m
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: veth615731f: Link UP
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered blocking state
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered disabled state
+Jun 19 16:48:59 seo-landing kernel: device veth615731f entered promiscuous mode
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered blocking state
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered forwarding state
+Jun 19 16:48:59 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71154 seen, reloading interface list
+Jun 19 16:48:59 seo-landing containerd[608]: time="2024-06-19T16:48:59.641765336Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:48:59 seo-landing containerd[608]: time="2024-06-19T16:48:59.642005260Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:48:59 seo-landing containerd[608]: time="2024-06-19T16:48:59.642024639Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:48:59 seo-landing containerd[608]: time="2024-06-19T16:48:59.642553260Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1691392 runtime=io.containerd.runc.v2
+Jun 19 16:48:59 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.N1duiQ.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.N1duiQ.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.N1duiQ.mount has successfully entered the 'dead' state.
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered disabled state
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered disabled state
+Jun 19 16:48:59 seo-landing kernel: eth0: renamed from veth9d49660
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: veth1524760: Gained carrier
+Jun 19 16:48:59 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth1524760: link becomes ready
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered blocking state
+Jun 19 16:48:59 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered forwarding state
+Jun 19 16:48:59 seo-landing kernel: eth1: renamed from veth90c2ab8
+Jun 19 16:48:59 seo-landing systemd-networkd[460]: veth615731f: Gained carrier
+Jun 19 16:48:59 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth615731f: link becomes ready
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered blocking state
+Jun 19 16:48:59 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered forwarding state
+Jun 19 16:49:01 seo-landing systemd-networkd[460]: veth615731f: Gained IPv6LL
+Jun 19 16:49:01 seo-landing systemd-networkd[460]: veth1524760: Gained IPv6LL
+Jun 19 16:49:04 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 26.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:04 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38119 and the job result is done.
+Jun 19 16:49:04 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38119.
+Jun 19 16:49:04 seo-landing ovpn-server[1691465]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:04 seo-landing ovpn-server[1691465]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:04 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:04 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:04 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38119 and the job result is failed.
+Jun 19 16:49:06 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.GHkD9V.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.GHkD9V.mount has successfully entered the 'dead' state.
+Jun 19 16:49:06 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.GHkD9V.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:06 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.fS5qG8.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:06 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.fS5qG8.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.fS5qG8.mount has successfully entered the 'dead' state.
+Jun 19 16:49:06 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.irO6vo.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.irO6vo.mount has successfully entered the 'dead' state.
+Jun 19 16:49:06 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-f6b1deffc99eaa2ffa52d8b84c05457ee7b65edd8d89d18e2112295efdf3ff9e-runc.irO6vo.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:07 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.sed8aC.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:07 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.sed8aC.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.sed8aC.mount has successfully entered the 'dead' state.
+Jun 19 16:49:09 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 27.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:09 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38204 and the job result is done.
+Jun 19 16:49:09 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38204.
+Jun 19 16:49:10 seo-landing ovpn-server[1691599]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:10 seo-landing ovpn-server[1691599]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:10 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:10 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:10 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38204 and the job result is failed.
+Jun 19 16:49:10 seo-landing dockerd[689]: time="2024-06-19T16:49:10.808778202Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:49:10 seo-landing containerd[608]: time="2024-06-19T16:49:10.809449824Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:49:10 seo-landing containerd[608]: time="2024-06-19T16:49:10.809522233Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:49:10 seo-landing containerd[608]: time="2024-06-19T16:49:10.809540729Z" level=info msg="cleaning up dead shim"
+Jun 19 16:49:10 seo-landing containerd[608]: time="2024-06-19T16:49:10.831968894Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:49:10Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1691609 runtime=io.containerd.runc.v2\n"
+Jun 19 16:49:10 seo-landing systemd-networkd[460]: veth1524760: Lost carrier
+Jun 19 16:49:10 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered disabled state
+Jun 19 16:49:10 seo-landing kernel: veth9d49660: renamed from eth0
+Jun 19 16:49:10 seo-landing systemd-udevd[1691628]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:10 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71152 seen, reloading interface list
+Jun 19 16:49:10 seo-landing systemd-udevd[1691628]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:10 seo-landing systemd-udevd[1691628]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth1524760: Link DOWN
+Jun 19 16:49:11 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered disabled state
+Jun 19 16:49:11 seo-landing kernel: device veth1524760 left promiscuous mode
+Jun 19 16:49:11 seo-landing kernel: br-d028c8fe559d: port 3(veth1524760) entered disabled state
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71153' we don't know about, ignoring.[0m
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71153' we don't know about, ignoring.[0m
+Jun 19 16:49:11 seo-landing networkd-dispatcher[1691655]: Interface "veth1524760" not found.
+Jun 19 16:49:11 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1691655, but reception only permitted for main PID 588[0m
+Jun 19 16:49:11 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth1524760" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth1524760']' returned non-zero exit status 1.
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth615731f: Lost carrier
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered disabled state
+Jun 19 16:49:11 seo-landing kernel: veth90c2ab8: renamed from eth1
+Jun 19 16:49:11 seo-landing systemd-udevd[1691656]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:11 seo-landing systemd-udevd[1691656]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:11 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71154 seen, reloading interface list
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth615731f: Link DOWN
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered disabled state
+Jun 19 16:49:11 seo-landing kernel: device veth615731f left promiscuous mode
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth615731f) entered disabled state
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71155' we don't know about, ignoring.[0m
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71155' we don't know about, ignoring.[0m
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth90c2ab8: Failed to wait for the interface to be initialized: No such device[0m
+Jun 19 16:49:11 seo-landing systemd-udevd[1691656]: [0;1;31m[0;1;39m[0;1;31mveth90c2ab8: Failed to get link config: No such device[0m
+Jun 19 16:49:11 seo-landing networkd-dispatcher[1691673]: Interface "veth90c2ab8" not found.
+Jun 19 16:49:11 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1691673, but reception only permitted for main PID 588[0m
+Jun 19 16:49:11 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth90c2ab8" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth90c2ab8']' returned non-zero exit status 1.
+Jun 19 16:49:11 seo-landing systemd[1622575]: run-docker-netns-872848ce0182.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:11 seo-landing systemd[1]: run-docker-netns-872848ce0182.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-872848ce0182.mount has successfully entered the 'dead' state.
+Jun 19 16:49:11 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:11 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:49:11 seo-landing networkd-dispatcher[1691678]: Interface "veth615731f" not found.
+Jun 19 16:49:11 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1691678, but reception only permitted for main PID 588[0m
+Jun 19 16:49:11 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth615731f" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth615731f']' returned non-zero exit status 1.
+Jun 19 16:49:11 seo-landing systemd-udevd[1691628]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:11 seo-landing systemd-udevd[1691628]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth0e5961f: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:11 seo-landing systemd-udevd[1691656]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:11 seo-landing systemd-udevd[1691656]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth0c3d25b: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:11 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered blocking state
+Jun 19 16:49:11 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered disabled state
+Jun 19 16:49:11 seo-landing kernel: device veth0e5961f entered promiscuous mode
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth0e5961f: Link UP
+Jun 19 16:49:11 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered blocking state
+Jun 19 16:49:11 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered forwarding state
+Jun 19 16:49:11 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71156 seen, reloading interface list
+Jun 19 16:49:11 seo-landing dockerd[689]: time="2024-06-19T16:49:11.340542891Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:49:11 seo-landing dockerd[689]: time="2024-06-19T16:49:11.340630357Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:49:11 seo-landing systemd-udevd[1691689]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth0df4e47: Link UP
+Jun 19 16:49:11 seo-landing systemd-udevd[1691691]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered blocking state
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered disabled state
+Jun 19 16:49:11 seo-landing kernel: device veth0df4e47 entered promiscuous mode
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered blocking state
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered forwarding state
+Jun 19 16:49:11 seo-landing systemd-udevd[1691689]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:11 seo-landing systemd-udevd[1691689]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth9cac6d2: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:11 seo-landing systemd-udevd[1691691]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:11 seo-landing systemd-udevd[1691691]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth0df4e47: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:11 seo-landing containerd[608]: time="2024-06-19T16:49:11.529364706Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:49:11 seo-landing containerd[608]: time="2024-06-19T16:49:11.529558595Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:49:11 seo-landing containerd[608]: time="2024-06-19T16:49:11.532447049Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:49:11 seo-landing containerd[608]: time="2024-06-19T16:49:11.538792277Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1691722 runtime=io.containerd.runc.v2
+Jun 19 16:49:11 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71158 seen, reloading interface list
+Jun 19 16:49:11 seo-landing kernel: eth0: renamed from veth0c3d25b
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth0e5961f: Gained carrier
+Jun 19 16:49:11 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth0e5961f: link becomes ready
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered disabled state
+Jun 19 16:49:11 seo-landing kernel: eth1: renamed from veth9cac6d2
+Jun 19 16:49:11 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth0df4e47: link becomes ready
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered blocking state
+Jun 19 16:49:11 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered forwarding state
+Jun 19 16:49:11 seo-landing systemd-networkd[460]: veth0df4e47: Gained carrier
+Jun 19 16:49:12 seo-landing systemd-networkd[460]: veth0df4e47: Gained IPv6LL
+Jun 19 16:49:12 seo-landing systemd-networkd[460]: veth0e5961f: Gained IPv6LL
+Jun 19 16:49:14 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.W7gQKz.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:14 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.W7gQKz.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.W7gQKz.mount has successfully entered the 'dead' state.
+Jun 19 16:49:15 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 28.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:15 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38289 and the job result is done.
+Jun 19 16:49:15 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38289.
+Jun 19 16:49:15 seo-landing ovpn-server[1691821]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:15 seo-landing ovpn-server[1691821]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:15 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:15 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:15 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38289 and the job result is failed.
+Jun 19 16:49:16 seo-landing sudo[1691824]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/nano /etc/openvpn/server.conf[0m
+Jun 19 16:49:16 seo-landing sudo[1691824]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:49:17 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.h6p9QG.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:17 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.h6p9QG.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.h6p9QG.mount has successfully entered the 'dead' state.
+Jun 19 16:49:20 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 29.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:20 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38374 and the job result is done.
+Jun 19 16:49:20 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38374.
+Jun 19 16:49:20 seo-landing ovpn-server[1691882]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:20 seo-landing ovpn-server[1691882]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:20 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:20 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:20 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38374 and the job result is failed.
+Jun 19 16:49:21 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.2bSn45.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:21 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.2bSn45.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.2bSn45.mount has successfully entered the 'dead' state.
+Jun 19 16:49:21 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-26fb6ea1ea2727c0d744048c94cc83135e7136289431b5ff0c5e638d4e428401-runc.8Qzquw.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-26fb6ea1ea2727c0d744048c94cc83135e7136289431b5ff0c5e638d4e428401-runc.8Qzquw.mount has successfully entered the 'dead' state.
+Jun 19 16:49:21 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-26fb6ea1ea2727c0d744048c94cc83135e7136289431b5ff0c5e638d4e428401-runc.8Qzquw.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:22 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-4ab4579bfae18e6a9d4b26a32d1d81e133d1d1bbfb148704f11e724d0c68a75a-runc.HZ4VP1.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-4ab4579bfae18e6a9d4b26a32d1d81e133d1d1bbfb148704f11e724d0c68a75a-runc.HZ4VP1.mount has successfully entered the 'dead' state.
+Jun 19 16:49:22 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-4ab4579bfae18e6a9d4b26a32d1d81e133d1d1bbfb148704f11e724d0c68a75a-runc.HZ4VP1.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:22 seo-landing dockerd[689]: time="2024-06-19T16:49:22.714374594Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:49:22 seo-landing containerd[608]: time="2024-06-19T16:49:22.716154251Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:49:22 seo-landing containerd[608]: time="2024-06-19T16:49:22.716239512Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:49:22 seo-landing containerd[608]: time="2024-06-19T16:49:22.716257525Z" level=info msg="cleaning up dead shim"
+Jun 19 16:49:22 seo-landing containerd[608]: time="2024-06-19T16:49:22.734826639Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:49:22Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1691973 runtime=io.containerd.runc.v2\n"
+Jun 19 16:49:22 seo-landing systemd-networkd[460]: veth0e5961f: Lost carrier
+Jun 19 16:49:22 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered disabled state
+Jun 19 16:49:22 seo-landing kernel: veth0c3d25b: renamed from eth0
+Jun 19 16:49:22 seo-landing systemd-udevd[1691994]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:22 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71156 seen, reloading interface list
+Jun 19 16:49:22 seo-landing systemd-udevd[1691994]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:22 seo-landing systemd-udevd[1691994]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:22 seo-landing systemd-networkd[460]: veth0e5961f: Link DOWN
+Jun 19 16:49:22 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered disabled state
+Jun 19 16:49:22 seo-landing kernel: device veth0e5961f left promiscuous mode
+Jun 19 16:49:22 seo-landing kernel: br-d028c8fe559d: port 3(veth0e5961f) entered disabled state
+Jun 19 16:49:22 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71157' we don't know about, ignoring.[0m
+Jun 19 16:49:22 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71157' we don't know about, ignoring.[0m
+Jun 19 16:49:22 seo-landing networkd-dispatcher[1692018]: Interface "veth0e5961f" not found.
+Jun 19 16:49:22 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692018, but reception only permitted for main PID 588[0m
+Jun 19 16:49:22 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth0e5961f" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth0e5961f']' returned non-zero exit status 1.
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: veth0df4e47: Lost carrier
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered disabled state
+Jun 19 16:49:23 seo-landing kernel: veth9cac6d2: renamed from eth1
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:23 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71158 seen, reloading interface list
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: veth0df4e47: Link DOWN
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered disabled state
+Jun 19 16:49:23 seo-landing kernel: device veth0df4e47 left promiscuous mode
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth0df4e47) entered disabled state
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71159' we don't know about, ignoring.[0m
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71159' we don't know about, ignoring.[0m
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: [0;1;31m[0;1;39m[0;1;31mveth9cac6d2: Failed to get link config: No such device[0m
+Jun 19 16:49:23 seo-landing systemd[1622575]: run-docker-netns-e43bb1c298c7.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:23 seo-landing systemd[1]: run-docker-netns-e43bb1c298c7.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-e43bb1c298c7.mount has successfully entered the 'dead' state.
+Jun 19 16:49:23 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:23 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:49:23 seo-landing networkd-dispatcher[1692044]: Interface "veth9cac6d2" not found.
+Jun 19 16:49:23 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth9cac6d2" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth9cac6d2']' returned non-zero exit status 1.
+Jun 19 16:49:23 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692044, but reception only permitted for main PID 588[0m
+Jun 19 16:49:23 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered blocking state
+Jun 19 16:49:23 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered disabled state
+Jun 19 16:49:23 seo-landing kernel: device veth662005e entered promiscuous mode
+Jun 19 16:49:23 seo-landing systemd-udevd[1692037]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethb0a4a19: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:23 seo-landing systemd-udevd[1692037]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692037]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth662005e: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: veth662005e: Link UP
+Jun 19 16:49:23 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered blocking state
+Jun 19 16:49:23 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered forwarding state
+Jun 19 16:49:23 seo-landing dockerd[689]: time="2024-06-19T16:49:23.233541200Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:49:23 seo-landing dockerd[689]: time="2024-06-19T16:49:23.233594107Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:49:23 seo-landing networkd-dispatcher[1692047]: Interface "veth0df4e47" not found.
+Jun 19 16:49:23 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692047, but reception only permitted for main PID 588[0m
+Jun 19 16:49:23 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth0df4e47" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth0df4e47']' returned non-zero exit status 1.
+Jun 19 16:49:23 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71160 seen, reloading interface list
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered blocking state
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered disabled state
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: veth1792041: Link UP
+Jun 19 16:49:23 seo-landing kernel: device veth1792041 entered promiscuous mode
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered blocking state
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered forwarding state
+Jun 19 16:49:23 seo-landing systemd-udevd[1692062]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692062]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692062]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth1792041: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:23 seo-landing systemd-udevd[1692020]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth680b4a4: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:23 seo-landing containerd[608]: time="2024-06-19T16:49:23.451721843Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:49:23 seo-landing containerd[608]: time="2024-06-19T16:49:23.452927311Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:49:23 seo-landing containerd[608]: time="2024-06-19T16:49:23.453353939Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:49:23 seo-landing containerd[608]: time="2024-06-19T16:49:23.456530994Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1692092 runtime=io.containerd.runc.v2
+Jun 19 16:49:23 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71162 seen, reloading interface list
+Jun 19 16:49:23 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.pnyONT.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:23 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.pnyONT.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.pnyONT.mount has successfully entered the 'dead' state.
+Jun 19 16:49:23 seo-landing kernel: eth0: renamed from vethb0a4a19
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: veth662005e: Gained carrier
+Jun 19 16:49:23 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth662005e: link becomes ready
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered disabled state
+Jun 19 16:49:23 seo-landing kernel: eth1: renamed from veth680b4a4
+Jun 19 16:49:23 seo-landing systemd-networkd[460]: veth1792041: Gained carrier
+Jun 19 16:49:23 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth1792041: link becomes ready
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered blocking state
+Jun 19 16:49:23 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered forwarding state
+Jun 19 16:49:24 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.yY3nZL.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.yY3nZL.mount has successfully entered the 'dead' state.
+Jun 19 16:49:24 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d0a926d89363d24319762f8229ec96baa2a1a1047954415ddce6b3b88f6ba3e3-runc.yY3nZL.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:24 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.bhZGnv.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:24 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.bhZGnv.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-bc502cb4708cf9747a30153530b78013e029171c08a7099fb77fab808e4f44b9-runc.bhZGnv.mount has successfully entered the 'dead' state.
+Jun 19 16:49:25 seo-landing systemd-networkd[460]: veth1792041: Gained IPv6LL
+Jun 19 16:49:25 seo-landing systemd-networkd[460]: veth662005e: Gained IPv6LL
+Jun 19 16:49:25 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 30.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:25 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38459 and the job result is done.
+Jun 19 16:49:25 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38459.
+Jun 19 16:49:25 seo-landing ovpn-server[1692200]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:25 seo-landing ovpn-server[1692200]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:25 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:25 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:25 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38459 and the job result is failed.
+Jun 19 16:49:27 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.v0BE0a.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.v0BE0a.mount has successfully entered the 'dead' state.
+Jun 19 16:49:27 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.v0BE0a.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:29 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.7ZNkZY.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:29 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.7ZNkZY.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-3051c6d76f4fc21c202b3769b787bfe776c3255f0eeb819aaed742cf4ca68fd2-runc.7ZNkZY.mount has successfully entered the 'dead' state.
+Jun 19 16:49:30 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 31.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:30 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38544 and the job result is done.
+Jun 19 16:49:30 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38544.
+Jun 19 16:49:31 seo-landing ovpn-server[1692264]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:31 seo-landing ovpn-server[1692264]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:31 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:31 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:31 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38544 and the job result is failed.
+Jun 19 16:49:33 seo-landing sudo[1691824]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:49:34 seo-landing dockerd[689]: time="2024-06-19T16:49:34.683854945Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:49:34 seo-landing containerd[608]: time="2024-06-19T16:49:34.686237008Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:49:34 seo-landing containerd[608]: time="2024-06-19T16:49:34.686422325Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:49:34 seo-landing containerd[608]: time="2024-06-19T16:49:34.686439848Z" level=info msg="cleaning up dead shim"
+Jun 19 16:49:34 seo-landing containerd[608]: time="2024-06-19T16:49:34.706362166Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:49:34Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1692278 runtime=io.containerd.runc.v2\n"
+Jun 19 16:49:34 seo-landing systemd-networkd[460]: veth662005e: Lost carrier
+Jun 19 16:49:34 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered disabled state
+Jun 19 16:49:34 seo-landing kernel: vethb0a4a19: renamed from eth0
+Jun 19 16:49:34 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71160 seen, reloading interface list
+Jun 19 16:49:34 seo-landing systemd-udevd[1692298]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:34 seo-landing systemd-udevd[1692298]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:34 seo-landing systemd-udevd[1692298]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:34 seo-landing systemd-networkd[460]: veth662005e: Link DOWN
+Jun 19 16:49:34 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered disabled state
+Jun 19 16:49:34 seo-landing kernel: device veth662005e left promiscuous mode
+Jun 19 16:49:34 seo-landing kernel: br-d028c8fe559d: port 3(veth662005e) entered disabled state
+Jun 19 16:49:34 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71161' we don't know about, ignoring.[0m
+Jun 19 16:49:34 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71161' we don't know about, ignoring.[0m
+Jun 19 16:49:34 seo-landing networkd-dispatcher[1692322]: Interface "veth662005e" not found.
+Jun 19 16:49:34 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692322, but reception only permitted for main PID 588[0m
+Jun 19 16:49:34 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth662005e" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth662005e']' returned non-zero exit status 1.
+Jun 19 16:49:34 seo-landing systemd-networkd[460]: veth1792041: Lost carrier
+Jun 19 16:49:34 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered disabled state
+Jun 19 16:49:34 seo-landing kernel: veth680b4a4: renamed from eth1
+Jun 19 16:49:34 seo-landing systemd-udevd[1692298]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71162 seen, reloading interface list
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: veth1792041: Link DOWN
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered disabled state
+Jun 19 16:49:35 seo-landing kernel: device veth1792041 left promiscuous mode
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(veth1792041) entered disabled state
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71163' we don't know about, ignoring.[0m
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71163' we don't know about, ignoring.[0m
+Jun 19 16:49:35 seo-landing systemd[1]: run-docker-netns-0f649e9da9a6.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-0f649e9da9a6.mount has successfully entered the 'dead' state.
+Jun 19 16:49:35 seo-landing systemd[1622575]: run-docker-netns-0f649e9da9a6.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:35 seo-landing systemd-udevd[1692298]: [0;1;31m[0;1;39m[0;1;31mveth680b4a4: Failed to get link config: No such device[0m
+Jun 19 16:49:35 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71162 seen even after reload
+Jun 19 16:49:35 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:35 seo-landing networkd-dispatcher[1692342]: Interface "veth1792041" not found.
+Jun 19 16:49:35 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692342, but reception only permitted for main PID 588[0m
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "veth1792041" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'veth1792041']' returned non-zero exit status 1.
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71162 seen, reloading interface list
+Jun 19 16:49:35 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered blocking state
+Jun 19 16:49:35 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered disabled state
+Jun 19 16:49:35 seo-landing kernel: device vethb663ab5 entered promiscuous mode
+Jun 19 16:49:35 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered blocking state
+Jun 19 16:49:35 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered forwarding state
+Jun 19 16:49:35 seo-landing dockerd[689]: time="2024-06-19T16:49:35.168449038Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:49:35 seo-landing dockerd[689]: time="2024-06-19T16:49:35.168489402Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: vethb663ab5: Link UP
+Jun 19 16:49:35 seo-landing systemd-udevd[1692298]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:35 seo-landing systemd-udevd[1692298]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethb663ab5: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:35 seo-landing systemd-udevd[1692338]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:35 seo-landing systemd-udevd[1692338]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:35 seo-landing systemd-udevd[1692338]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvetha80d32e: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71162 seen even after reload
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71164 seen, reloading interface list
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered blocking state
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered disabled state
+Jun 19 16:49:35 seo-landing systemd-udevd[1692375]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:35 seo-landing kernel: device vethfcff92a entered promiscuous mode
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered blocking state
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered forwarding state
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: vethfcff92a: Link UP
+Jun 19 16:49:35 seo-landing systemd-udevd[1692338]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:35 seo-landing systemd-udevd[1692338]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth2570f9c: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:35 seo-landing systemd-udevd[1692375]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:35 seo-landing systemd-udevd[1692375]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethfcff92a: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:35 seo-landing containerd[608]: time="2024-06-19T16:49:35.413136665Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:49:35 seo-landing containerd[608]: time="2024-06-19T16:49:35.413254051Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:49:35 seo-landing containerd[608]: time="2024-06-19T16:49:35.413273782Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:49:35 seo-landing containerd[608]: time="2024-06-19T16:49:35.414987998Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1692391 runtime=io.containerd.runc.v2
+Jun 19 16:49:35 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71166 seen, reloading interface list
+Jun 19 16:49:35 seo-landing sudo[1692430]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/systemctl restart openvpn@server[0m
+Jun 19 16:49:35 seo-landing sudo[1692430]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:49:35 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38629 and the job result is done.
+Jun 19 16:49:35 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38629.
+Jun 19 16:49:35 seo-landing ovpn-server[1692435]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:35 seo-landing ovpn-server[1692435]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:35 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:35 seo-landing sudo[1692430]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:49:35 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:35 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38629 and the job result is failed.
+Jun 19 16:49:35 seo-landing kernel: eth0: renamed from vetha80d32e
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: vethb663ab5: Gained carrier
+Jun 19 16:49:35 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb663ab5: link becomes ready
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered disabled state
+Jun 19 16:49:35 seo-landing kernel: eth1: renamed from veth2570f9c
+Jun 19 16:49:35 seo-landing systemd-networkd[460]: vethfcff92a: Gained carrier
+Jun 19 16:49:35 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethfcff92a: link becomes ready
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered blocking state
+Jun 19 16:49:35 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered forwarding state
+Jun 19 16:49:36 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.7uPrnS.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:36 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.7uPrnS.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-4a7134eeab9ae8b16bffec6453a06bed3b23eb58c3058f7d8ca50decedaa3280-runc.7uPrnS.mount has successfully entered the 'dead' state.
+Jun 19 16:49:36 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.60gzkG.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:36 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.60gzkG.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-d79405ca4dfccfbd8ad404058efe3ef2769fdaa1aee4531bc7262d1428794ddd-runc.60gzkG.mount has successfully entered the 'dead' state.
+Jun 19 16:49:37 seo-landing systemd-networkd[460]: vethfcff92a: Gained IPv6LL
+Jun 19 16:49:37 seo-landing systemd-networkd[460]: vethb663ab5: Gained IPv6LL
+Jun 19 16:49:38 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.8auwT4.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:38 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.8auwT4.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.8auwT4.mount has successfully entered the 'dead' state.
+Jun 19 16:49:38 seo-landing sudo[1692568]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/systemctl status openvpn@server[0m
+Jun 19 16:49:38 seo-landing sudo[1692568]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
+Jun 19 16:49:40 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 32.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:40 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38714 and the job result is done.
+Jun 19 16:49:40 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38714.
+Jun 19 16:49:40 seo-landing ovpn-server[1692575]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:40 seo-landing ovpn-server[1692575]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:40 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:40 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:40 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38714 and the job result is failed.
+Jun 19 16:49:45 seo-landing systemd[1]: openvpn@server.service: Scheduled restart job, restart counter is at 33.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit openvpn@server.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jun 19 16:49:45 seo-landing systemd[1]: Stopped OpenVPN connection to server.
+-- Subject: A stop job for unit openvpn@server.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit openvpn@server.service has finished.
+-- 
+-- The job identifier is 38799 and the job result is done.
+Jun 19 16:49:45 seo-landing systemd[1]: Starting OpenVPN connection to server...
+-- Subject: A start job for unit openvpn@server.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has begun execution.
+-- 
+-- The job identifier is 38799.
+Jun 19 16:49:46 seo-landing ovpn-server[1692607]: [0;1;31m[0;1;39m[0;1;31mOptions error: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/server.conf:15: data-ciphers (2.4.12)[0m
+Jun 19 16:49:46 seo-landing ovpn-server[1692607]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mUse --help for more information.[0m
+Jun 19 16:49:46 seo-landing systemd[1]: [0;1;39m[0;1;31m[0;1;39mopenvpn@server.service: Main process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit openvpn@server.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 19 16:49:46 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mopenvpn@server.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit openvpn@server.service has entered the 'failed' state with result 'exit-code'.
+Jun 19 16:49:46 seo-landing systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start OpenVPN connection to server.[0m
+-- Subject: A start job for unit openvpn@server.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit openvpn@server.service has finished with a failure.
+-- 
+-- The job identifier is 38799 and the job result is failed.
+Jun 19 16:49:46 seo-landing containerd[608]: time="2024-06-19T16:49:46.696721911Z" level=info msg="shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69
+Jun 19 16:49:46 seo-landing containerd[608]: time="2024-06-19T16:49:46.697649394Z" level=warning msg="cleaning up after shim disconnected" id=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 namespace=moby
+Jun 19 16:49:46 seo-landing containerd[608]: time="2024-06-19T16:49:46.697983907Z" level=info msg="cleaning up dead shim"
+Jun 19 16:49:46 seo-landing dockerd[689]: time="2024-06-19T16:49:46.698710530Z" level=info msg="ignoring event" container=1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jun 19 16:49:46 seo-landing containerd[608]: time="2024-06-19T16:49:46.721760053Z" level=warning msg="cleanup warnings time=\"2024-06-19T16:49:46Z\" level=info msg=\"starting signal loop\" namespace=moby pid=1692616 runtime=io.containerd.runc.v2\n"
+Jun 19 16:49:46 seo-landing systemd-networkd[460]: vethb663ab5: Lost carrier
+Jun 19 16:49:46 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered disabled state
+Jun 19 16:49:46 seo-landing kernel: vetha80d32e: renamed from eth0
+Jun 19 16:49:46 seo-landing systemd-udevd[1692634]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:46 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71164 seen, reloading interface list
+Jun 19 16:49:46 seo-landing systemd-udevd[1692634]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:46 seo-landing systemd-udevd[1692634]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:46 seo-landing systemd-networkd[460]: vethb663ab5: Link DOWN
+Jun 19 16:49:46 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered disabled state
+Jun 19 16:49:46 seo-landing kernel: device vethb663ab5 left promiscuous mode
+Jun 19 16:49:46 seo-landing kernel: br-d028c8fe559d: port 3(vethb663ab5) entered disabled state
+Jun 19 16:49:46 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71165' we don't know about, ignoring.[0m
+Jun 19 16:49:46 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71165' we don't know about, ignoring.[0m
+Jun 19 16:49:46 seo-landing networkd-dispatcher[1692656]: Interface "vethb663ab5" not found.
+Jun 19 16:49:46 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692656, but reception only permitted for main PID 588[0m
+Jun 19 16:49:46 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "vethb663ab5" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethb663ab5']' returned non-zero exit status 1.
+Jun 19 16:49:46 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered disabled state
+Jun 19 16:49:46 seo-landing kernel: veth2570f9c: renamed from eth1
+Jun 19 16:49:46 seo-landing systemd-networkd[460]: vethfcff92a: Lost carrier
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71166 seen, reloading interface list
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: vethfcff92a: Link DOWN
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered disabled state
+Jun 19 16:49:47 seo-landing kernel: device vethfcff92a left promiscuous mode
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(vethfcff92a) entered disabled state
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71167' we don't know about, ignoring.[0m
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrtnl: received neighbor for link '71167' we don't know about, ignoring.[0m
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: [0;1;31m[0;1;39m[0;1;31mveth2570f9c: Failed to get link config: No such device[0m
+Jun 19 16:49:47 seo-landing systemd[1622575]: run-docker-netns-99a46bd7a92d.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71166 seen even after reload
+Jun 19 16:49:47 seo-landing systemd[1622575]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:47 seo-landing systemd[1]: run-docker-netns-99a46bd7a92d.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-netns-99a46bd7a92d.mount has successfully entered the 'dead' state.
+Jun 19 16:49:47 seo-landing systemd[1]: var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit var-lib-docker-overlay2-35367f32497f32c922b03a02a1bfcc41ebfb451c7e028ba76b521e85322ebef7-merged.mount has successfully entered the 'dead' state.
+Jun 19 16:49:47 seo-landing networkd-dispatcher[1692679]: Interface "vethfcff92a" not found.
+Jun 19 16:49:47 seo-landing systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnetworkd-dispatcher.service: Got notification message from PID 1692679, but reception only permitted for main PID 588[0m
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: ERROR:Failed to get interface "vethfcff92a" status: Command '['/usr/bin/networkctl', 'status', '--no-pager', '--no-legend', '--', 'vethfcff92a']' returned non-zero exit status 1.
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71166 seen, reloading interface list
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: ERROR:Unknown interface index 71166 seen even after reload
+Jun 19 16:49:47 seo-landing kernel: br-d028c8fe559d: port 3(vetha46f359) entered blocking state
+Jun 19 16:49:47 seo-landing kernel: br-d028c8fe559d: port 3(vetha46f359) entered disabled state
+Jun 19 16:49:47 seo-landing kernel: device vetha46f359 entered promiscuous mode
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvethed64b10: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:47 seo-landing kernel: br-d028c8fe559d: port 3(vetha46f359) entered blocking state
+Jun 19 16:49:47 seo-landing kernel: br-d028c8fe559d: port 3(vetha46f359) entered forwarding state
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: vetha46f359: Link UP
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71168 seen, reloading interface list
+Jun 19 16:49:47 seo-landing systemd-udevd[1692675]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:47 seo-landing systemd-udevd[1692675]: Using default interface naming scheme 'v245'.
+Jun 19 16:49:47 seo-landing systemd-udevd[1692675]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvetha46f359: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:47 seo-landing dockerd[689]: time="2024-06-19T16:49:47.206883197Z" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+Jun 19 16:49:47 seo-landing dockerd[689]: time="2024-06-19T16:49:47.206957988Z" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:47 seo-landing systemd-udevd[1692657]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth1bed557: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:47 seo-landing systemd-udevd[1692675]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jun 19 16:49:47 seo-landing systemd-udevd[1692675]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mveth28d3f58: Could not generate persistent MAC: No data available[0m
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered blocking state
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered disabled state
+Jun 19 16:49:47 seo-landing kernel: device veth28d3f58 entered promiscuous mode
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: veth28d3f58: Link UP
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered blocking state
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered forwarding state
+Jun 19 16:49:47 seo-landing networkd-dispatcher[588]: WARNING:Unknown index 71170 seen, reloading interface list
+Jun 19 16:49:47 seo-landing containerd[608]: time="2024-06-19T16:49:47.435001843Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Jun 19 16:49:47 seo-landing containerd[608]: time="2024-06-19T16:49:47.435653360Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Jun 19 16:49:47 seo-landing containerd[608]: time="2024-06-19T16:49:47.436027984Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Jun 19 16:49:47 seo-landing containerd[608]: time="2024-06-19T16:49:47.436777718Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69 pid=1692730 runtime=io.containerd.runc.v2
+Jun 19 16:49:47 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.3lOJRU.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:47 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.3lOJRU.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-1d80a96fa51d97ee8daa36336853d299d7868bf8bf25610ab57eb5cc4cff9c69-runc.3lOJRU.mount has successfully entered the 'dead' state.
+Jun 19 16:49:47 seo-landing sudo[1692568]: pam_unix(sudo:session): session closed for user root
+Jun 19 16:49:47 seo-landing kernel: eth0: renamed from vethed64b10
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: vetha46f359: Gained carrier
+Jun 19 16:49:47 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vetha46f359: link becomes ready
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered disabled state
+Jun 19 16:49:47 seo-landing kernel: eth1: renamed from veth1bed557
+Jun 19 16:49:47 seo-landing systemd-networkd[460]: veth28d3f58: Gained carrier
+Jun 19 16:49:47 seo-landing kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth28d3f58: link becomes ready
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered blocking state
+Jun 19 16:49:47 seo-landing kernel: br-364cafed42d7: port 2(veth28d3f58) entered forwarding state
+Jun 19 16:49:48 seo-landing systemd[1]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.79FN2x.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.79FN2x.mount has successfully entered the 'dead' state.
+Jun 19 16:49:48 seo-landing systemd[1622575]: run-docker-runtime\x2drunc-moby-a7de1844c4602c62254d15ffedd3e200ca487f8fc39db26ddb9243594c3d4853-runc.79FN2x.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit UNIT has successfully entered the 'dead' state.
+Jun 19 16:49:48 seo-landing sudo[1692854]: [0;1;39m[0;1;31m[0;1;39m     dev : TTY=pts/0 ; PWD=/home/dev/vp-creds- ; USER=root ; COMMAND=/usr/bin/journalctl -xe[0m
+Jun 19 16:49:48 seo-landing sudo[1692854]: pam_unix(sudo:session): session opened for user root by dev(uid=0)
